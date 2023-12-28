@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+main{
+  overflow: hidden;}
+
+.main_wrap{
+  width: 70%; margin: 0 auto;
+}
+
+section > h2{font-size: 32px; font-weight: 700;}
+section > h3{font-size: 20px; font-weight: 500; padding-top: 20px;}
+
+.none_title{display: none;}
+
+main section{width: 1200px; margin: 0px auto; text-align: center; padding:62px 0px; }
+
+section > ul{padding:40px 0px;}
+/* section{overflow: hidden;} */
+
+/* 메인 이미지 */
+.m_banner{width:100%; position: relative;}
+.m_banner > img{width: 100%}
+
+.m_banner > h2{
+  font-size: 50px; color: #f00; position: absolute; top: 50%; left: 70%; z-index: 100;}
+
+/* 1. 인기여행지 best10 */
+.m_con01{position: relative;}
+
+.best10{display: flex; }
+
+.best10 > li{padding-right: 20px;}
+
+.best10 > li > a{position: relative;}
+
+.best10 > li > a > img{
+    width: 387px; height: 387px; border-radius: 15px;}
+
+.con01_num{
+  font-size: 20px; font-weight: 500;
+  position: absolute; bottom:350px; left: 20px;
+}
+
+.best10 .con01_place{
+  font-size: 20px; font-weight: 500;
+  position: absolute; bottom:50px; left: 20px;
+}
+
+.best10 .con01_local{
+  font-size: 15px; font-weight: 300;
+  position: absolute; bottom:28px; left: 20px;
+}
+.best10  .con01_num, .best10 .con01_place, .best10 .con01_local{color: #fff;}
+
+/* 슬라이드 콘텐츠 숨기기 */
+.m_con01 > ul > li:nth-child(4){display: none;}
+.m_con01 > ul > li:nth-child(5){display: none;}
+.m_con01 > ul > li:nth-child(6){display: none;}
+.m_con01 > ul > li:nth-child(7){display: none;}
+.m_con01 > ul > li:nth-child(8){display: none;}
+.m_con01 > ul > li:nth-child(9){display: none;}
+.m_con01 > ul > li:nth-child(10){display: none;}
+
+
+/* 버튼 서식 */
+.btn_more{
+  width: 225px; height: 50px;
+  display: block; margin: 0px auto;
+  line-height: 57px;
+  background: #97AF8F;
+  border: 1px solid #97AF8F;  border-radius: 7px;}
+
+.btn_more > a{color: #fff; font-size: 20px; display: block;}
+
+
+
+  /* <> 버튼 서식 */
+
+  .m_left_btn > img, .m_right_btn > img{width: 40px;}
+
+  .l_btn01{position: absolute; left: -60px; top: 370px;}
+  .r_btn01{position: absolute; right: -60px; top: 370px;}
+
+  .l_btn02{position: absolute; left: -60px; top: 470px;}
+  .r_btn02{position: absolute; right: -60px; top: 470px;}
+
+
+/* 2. k-콘텐츠 여행 */
+/* .m_con02_box{width: 100%; 
+  background: #0f0;} */
+
+.con02_wrap{background: #FFFCF8;}
+
+.m_con02{position: relative; }
+.m_con02 > ul{display: flex;}
+
+.m_con02 > ul > li > a > img{
+  width: 1200px;
+  border-radius: 15px;}
+
+/* 슬라이드 콘텐츠 숨기기 */
+  .m_con02 > ul > li:nth-child(2){display: none;}
+  .m_con02 > ul >li:nth-child(3){display: none;}
+
+
+
+
+
+  
+
+/* 3. 지역별 국내 여행 */
+
+/* .m_con03 > article > ul > li >{position: relative;} */
+.m_con03 > .slide{padding:40px 0px;}
+.con03_slide{width: 1200px; overflow: hidden;}
+
+.con03_Swiper{position: relative;}
+
+.m_con03 a{position: relative;}
+.m_con03 img{
+  width: 1200px;
+  border-radius:15px;}
+
+.m_con03_btn{
+  background: rgba(255,255,255,.5);
+  padding: 6px 4px 2px;
+  border-radius: 4px;
+  font-size: 17px;
+  color: #fff;
+  position: absolute; bottom:635px; left: 30px;}
+
+.m_con03_title{
+  font-size: 20px;
+  color: #fff;
+  position: absolute; bottom:600px; left: 30px;}
+
+
+
+
+/* 4. 여행지 리뷰 */
+.m_con04{}
+
+.m_con04 > ul{
+  width: 1200px; display: flex;}
+
+.m_con04 > ul > li{width: 285px; overflow: hidden;}
+
+.m_con04 > ul > li:first-child{padding-right:20px;}
+.m_con04 > ul > li:nth-child(2),.m_con04 > ul > li:nth-child(3){padding-right:20px;}
+
+.m_con04 > ul > li > a{width: 285px; height:420px;}
+
+.m_con04 > ul > li > a > img{width: 285px; border-radius:10px;}
+
+/* 이미지 밑 문자 */
+
+.m_con04_2{text-align:left}
+
+.m_con04_title{
+  font-size: 20px; padding: 10px 0px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+.m_con04_txt{
+  font-size: 17px; line-height: 25px; padding-top: 20px;
+  overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+
+.m_con04_2 > span{
+  font-size: 15px; color: #333; 
+}
+
+.m_con04_btn{
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background:#eee;
+  padding: 2px 6px; 
+  font-size: 13px; color: #333; margin: 0px 10px 0px 0px;}
+
+/* .m_con04_btn, .m_con04_click{margin: 0px 18px 0px 0px;} */
+
+.m_con04_btn{margin-right: 12px;}
+.m_con04_click{margin:0px 14px 0px 16px}
+
+.m_con04_heart > img{width:18px; position: relative; top: 3.5px; left: -4px;}

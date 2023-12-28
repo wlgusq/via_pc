@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/* main{} */ 
+/* TITLE */
+.blank{
+  height: 25px;
+}
+.loc{
+  width: 1200px;
+  margin: 80px auto;
+}
+.loc > h2, .loc > h3, .loc > p{
+  text-align: center;
+}
+.loc > h3{
+  font-size: 20px;
+}
+.loc > h2{
+  font-weight: 700;
+  font-size: 32px;
+  margin: 20px 0px 30px 0px;
+}
+.loc > img{
+  width: 1200px; height: 700px;
+  border-radius: 15px;
+}
+.youtube{
+  text-align: center;
+  margin: 80px 0px 60px 0px;
+}
+
+.loc > p{
+  font-size: 18px;
+}
+
+.loc > .sns{
+  text-align: center;
+  margin-top: 130px;
+}
+.loc > .sns > a > img{
+  width: 40px;
+  padding: 20px 9px 0px 9px;
+}
+
+
+.loc > h4{
+  font-size: 30px;
+  font-weight: 500;
+  margin: 80px 0px 50px 0px;
+}
+
+
+
+/* 리뷰 보기 버튼 */
+.btn_review{
+  width: 225px; height: 50px;
+  display: block; margin: 70px auto;
+  margin-bottom: 80px;
+  line-height: 57px;
+  background: #97AF8F;
+  border: 1px solid #97AF8F;  border-radius: 7px;
+  text-align: center;
+}
+
+.btn_review > a{color: #fff; font-size: 20px; display: block;}
+
+
+
+/* 다른 촬영지 */
+.total{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+.total > li{
+  width: 388px; height: 431px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px 16px #ececec;
+  border-radius: 13px;
+  margin-bottom: 20px;
+}
+.total > li img{
+  width: 388px; height: 215px;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+}
+.total .caption{
+  height: 160px;
+  padding: 25px;
+  position: relative;
+}
+.total .caption > p{
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.total .caption > p.a_title{
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 60px; left: 30px;
+} 
+.total .caption span.location{
+  background-color: #efefef;
+  padding:8px 10px 4px 10px;
+  border-radius: 30px;
+  font-size: 13px; font-weight: 500;
+  position: absolute;
+  bottom: 25px; left: 25px;
+}
+/* 찜하기 버튼 */
+.heart{
+  display:inline-block;
+  width:28px;height:26px;
+  background-image:url('../pc/sub_img/heart_empty.png');
+  background-size: 28px 26px;
+  text-indent:-9999px;
+  position: absolute;
+  right: 50px; bottom: 25px;
+}
+#toggle1{display:none;}
+#toggle1:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}
+#toggle2{display:none;}
+#toggle2:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}
+#toggle3{display:none;}
+#toggle3:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}
+#toggle4{display:none;}
+#toggle4:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}
+#toggle5{display:none;}
+#toggle5:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}
+#toggle6{display:none;}
+#toggle6:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}
+#toggle7{display:none;}
+#toggle7:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}
+#toggle8{display:none;}
+#toggle8:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}
+#toggle9{display:none;}
+#toggle9:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}
+#toggle10{display:none;}
+#toggle10:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}
+#toggle11{display:none;}
+#toggle11:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}
+#toggle12{display:none;}
+#toggle12:checked+label{
+  background-image:url('../pc/sub_img/heart_red.png');
+}

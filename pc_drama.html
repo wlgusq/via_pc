@@ -1,0 +1,254 @@
+ <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIA_서브_강릉 주문진</title>
+    <!-- 1. 여백초기화 -->
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <!-- 2. 공통서식 (메인, 서브, 로그인, 회원가입)-->
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <!-- 3. 레이아웃--> 
+    <link href="./css/layout_sub.css" rel="stylesheet" type="text/css">
+    <!-- 4. 메인, 서브, 로그인, 회원가입 페이지 서식 --> 
+    <link href="./css/sub_dra.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  
+
+  <!-- header 영역 -->
+  <header>
+    <div class="h_top">
+      <h1><a href="pc_index.html" title="메인 페이지 바로가기"><img src="./img/header_footer_img/via_logo(1).png" alt="via 로고"></a></h1>
+  
+      <nav class="h_lnb">
+        <ul>
+          <li>
+            <fieldset class="search_wrap">
+              <legend>검색</legend>
+              <!-- <input type="text" placeholder="드라마, 축제, 지역 검색"  class="search"> -->
+              <input type="image" src="./img/header_footer_img/icon_search.png" alt="검색 아이콘" class="icon_search">
+            </fieldset>
+          </li>
+
+          <li>
+            <a href="login.html" title="마이페이지 바로가기">
+              <img src="./img/header_footer_img/icon_user2.png" alt="내 프로필" class="icon_user">
+              <!-- 김나나 <span class="h_user_txt">님</span> -->
+            </a>
+          </li>
+
+          <li class="lang">
+            <img src="./img/header_footer_img/icon_lan3.png" alt="언어설정" class="icon_lan">
+            <!-- <select name="" id="lan">
+              <option value="">KR</option>
+              <option value="">EN</option>
+              <option value="">JP</option>
+              <option value="">CH</option>
+          </select> -->
+        </li></ul>
+      </nav>
+
+      <nav class="gnb">
+        <ul>
+          <li><a href="#" title="인기 여행지">인기 여행지</a></li>
+          <li><a href="./pc_k_content.html" title="K-콘텐츠여행">K-콘텐츠 여행</a></li>
+          <li><a href="#" title="지역여행">지역여행</a>
+            <ul class="sub">
+              <li><a href="#" title="">서울</a></li>
+              <li><a href="#" title="">경기</a></li>
+              <li><a href="#" title="">강원</a></li>
+              <li><a href="#" title="">충청</a></li>
+              <li><a href="#" title="">경상</a></li>
+              <li><a href="#" title="">전라</a></li>
+              <li><a href="#" title="">제주</a></li>
+            </ul>
+          </li>
+          <li><a href="#" title="예약">예약</a>
+            <ul class="sub">
+              <li><a href="#" title="">렌터카/교통</a></li>
+              <li><a href="#" title="">숙소</a></li>
+              <li><a href="#" title="">티켓</a></li>
+            </ul>
+          </li>
+          <li><a href="#" title="여행지리뷰">여행지리뷰</a></li>
+          <li><a href="#" title="내 여행">내 여행</a></li>
+        </ul>
+      </nav>
+
+      </div>
+  </header>
+
+
+
+
+
+
+
+<!-- main 영역 -->
+<main>
+  <article class="drama">
+    <div class="blank"></div>
+    <h2><img class="film" src="./img/sub_img/i_film.png" alt="필름 아이콘">
+      <span>그 해 우리는</span></h2>
+      
+  
+    <p>인기 드라마 도깨비 속 명장면을 그대로 여행해보세요!</p>
+
+    <img src="./img/sub_img/location.png" alt="그 해 우리는 이미지">
+
+    <!-- 도깨비 여행지 둘러보기 -->
+    <ul class="drama_wrap">
+      <li>
+      <span class="bottom_line">그 해 우리는 여행지 둘러보기</span>
+      </li>
+
+      <li>
+        <a href="./pc_location.html" title="촬영지 둘러보기">
+          <img src="./img/sub_img/location01.png" alt="촬영지 1">
+            <div>
+            <span class="hash">#데이트</span> 
+            <span class="hash">#12회</span> <br>
+            <span class="a_title">오이도 박물관 <span class="location">경기도 시흥시 오이도로 332</span></span><br>
+            
+            <p class="a_txt">
+              오이도는 서해안 최대 패총유적지이자 다양한 신석기시대 유물의 출토지로, 
+              선<br>사시대 해안생활문화유산으로서 보존가치를 인정받는 곳이다. 이러한 오이도 유<br>적을 보호하고 
+              활용하기 위해 2019년 시흥오이도박물관이 조성되었다. 공원에<br>서는 
+              신석기인들의 생생한 삶의 모습을 만날 수 있고, 
+              박물관에서는 보다 가깝게 시흥의 출토 유물들을 이해하고 선사시대 생활문화를 체험할 수 있는 기회를 제공한다.
+            </p>
+            </div>
+            <input type="checkbox" id="toggle1">
+            <label for="toggle1" class="heart">찜하기</label>
+        </a>
+      </li>
+
+
+      <li>
+        <a href="./pc_location.html" title="촬영지 둘러보기">
+          <img src="./img/sub_img/location02.png" alt="촬영지 1">
+            <div>
+            <span class="hash">#연수집</span> 
+            <span class="hash">#수원화성</span>
+            <span class="hash">#행궁동</span> <br>
+            <span class="a_title">지동벽화마을 <span class="location">경기도 시흥시 오이도로 332</span></span><br>
+            
+            <p class="a_txt">
+              지동벽화마을은 수원 팔달구의 행궁동 우측에 있는 하나의 마을인 지동에 위치하<br>고 있다.
+              수원화성 담을 따라 평탄한 길로 올라가다 보면 지동이 나오게 되는데 대<br>부분의 골목마다 벽화를 볼 수 있어
+              구경거리가 많다.
+            </p>
+            </div>
+            <input type="checkbox" id="toggle2">
+            <label for="toggle2" class="heart">찜하기</label>
+        </a>
+      </li>
+
+      <li>
+        <a href="./pc_location.html" title="촬영지 둘러보기">
+          <img src="./img/sub_img/location03.png" alt="촬영지 1">
+            <div>
+            <span class="hash">#단풍</span> 
+            <span class="hash">#스위스</span> <br>
+            <span class="a_title">온빛자연휴양림 <span class="location">충남 논산시 벌곡면 황룡재로 480-113</span></span><br>
+            
+            <p class="a_txt">
+              온빛자연휴양림을 걷다 보면 메타세콰이아 숲과 호수가 어우러져 이국적인 <br>풍경을 볼 수 있다.
+              여름은 푸르게 가을은 주황빛으로 물든다.
+              계절별로 아름<br>답게 피어나는 온빛자연휴양림에서 힐링 산책을 즐기길 추천한다.
+            </p>
+            </div>
+            <input type="checkbox" id="toggle3">
+            <label for="toggle3" class="heart">찜하기</label>
+        </a>
+      </li>
+
+
+      <li>
+        <a href="./pc_location.html" title="촬영지 둘러보기">
+          <img src="./img/sub_img/location04.png" alt="촬영지 1">
+            <div>
+            <span class="hash">#우유창고</span> 
+            <span class="hash">#청보리카페</span> <br>
+            <span class="a_title">천북폐목장 청보리밭 <span class="location">충남 보령시 천북면 천광로 73-22</span></span><br>
+            
+            <p class="a_txt">
+              보령시 천북면에 위치한 천북폐목장 청보리밭은 네비게이션에 ''천북 신흥교회'<br>'로 검색하고 찾아올 수 있다.
+            드라마 촬영 장소로 사용된 이 폐목장 자리는 사실<br> 개인 사유지로, 따로 마련된 주차공간이 없고 청보리밭을 밟아서도 안되며 가운<br>데 난 길로만 다녀야 한다.
+            SNS 상에서 사진 찍기 좋은 곳으로 입소문이 나서 인생사진을 남기러 방문하는 사람이 많아졌다.
+            </p>
+            </div>
+            <input type="checkbox" id="toggle4">
+            <label for="toggle4" class="heart">찜하기</label>
+        </a>
+      </li>
+
+
+      <li>
+        <a href="./pc_location.html" title="촬영지 둘러보기">
+          <img src="./img/sub_img/location05.png" alt="촬영지 1">
+            <div>
+            <span class="hash">#웅이전시</span> 
+            <span class="hash">#프로젝트</span>
+            <span class="hash">#미술관</span> <br>
+            <span class="a_title">의정부미술도서관 <span class="location">경기도 의정부시 민락로 248</span></span><br>
+            
+            <p class="a_txt">
+              기존 도서관의 편견을 깨는 독특한 테마와 매력적인 디자인으로 새로운 명소가 되<br>고 있는 곳이다.
+              국내 최초의 미술 도서관이 있으며, 음악 도서관은 CD, LP, DVD,<br> 악보 등 비도서 자료가 가득하고, 
+              LP청음까지 할 수 있어 예술을 좋아하는 사람들<br>에게 추천한다. 
+            </p>
+            </div>
+            <input type="checkbox" id="toggle3">
+            <label for="toggle3" class="heart">찜하기</label>
+        </a>
+      </li>
+
+    </ul>
+
+    <!-- 더보기 버튼 -->
+    <span class="btn_review">
+      <a href="#" title="도깨비 여행지 둘러보기" >더보기 ></a>
+    </span>
+    
+
+    
+</article>
+
+</main>
+
+
+
+
+
+
+
+<!-- footer 영역 -->
+<footer>
+  <div class="f_box">
+    <nav class="f_lnb">
+      <ul>
+        <li><a href="#" title="이용약관">이용약관</a></li>
+        <li><a href="#" title="개인정보처리방침">개인정보처리방침</a></li>
+        <li><a href="#" title="저작권정책">저작권정책</a></li>
+        <li><a href="#" title="고객서비스현황">고객서비스현황</a></li>
+        <li><a href="#" title="전자우편무단수집거부">전자우편무단수집거부</a></li>
+        <li><a href="#" title="Q&A">Q&A</a></li>
+      </ul>
+    </nav>
+
+    <address>
+      <p>서울특별시 종로구 00  TEL : 02-123-1234 사업자등록번호 : 123-12-12345 통신판매업신고 : 제1111-서울중구-1111호<br>
+        COPYRIGHT ⓒ VIA COMPONY. ALL RIGHTS RESERVED.</p>
+    </address>
+  </div>
+
+  <span><a href="#top" title="위로 바로가기" class="icon_top"><img src="./img/header_footer_img/icon_top.png" alt="top 아이콘"></a></span>
+
+</footer>
+
+
+</body>
+</html>

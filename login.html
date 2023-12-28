@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIA 홈페이지_메인</title>
+  <!-- 1. 여백초기화 -->
+  <link href="./css/reset.css" rel="stylesheet" type="text/css">
+  <link href="./css/layout_sub.css" rel="stylesheet" type="text/css">
+  <link href="./css/base.css" rel="stylesheet" type="text/css">
+  <link href="./css/login.css" rel="stylesheet" type="text/css">
+</head>
+<body> 
+
+  <!-- 상단 헤더영역 시작 -->
+    <!-- header 영역 -->
+    <header>
+      <div class="h_top">
+        <h1><a href="pc_index.html" title="메인 페이지 바로가기"><img src="./img/header_footer_img/via_logo(1).png" alt="비아로고"></a></h1>
+    
+        <nav class="h_lnb">
+          <ul>
+            <li>
+              <fieldset class="search_wrap">
+                <legend>검색</legend>
+                <!-- <input type="text" placeholder="드라마, 축제, 지역 검색"  class="search"> -->
+                <input type="image" src="./img/header_footer_img/icon_search.png" class="icon_search" alt="검색아이콘">
+              </fieldset>
+            </li>
+  
+            <li>
+              <a href="#" title="마이페이지 바로가기">
+                <img src="./img/header_footer_img/icon_user2.png" alt="내 프로필" class="icon_user">
+                <!-- 김나나 <span class="h_user_txt">님</span> -->
+              </a>
+            </li>
+  
+            <li class="lang">
+              <img src="./img/header_footer_img/icon_lan3.png" alt="언어설정" class="icon_lan">
+              <!-- <select name="" id="lan">
+                <option value="">KR</option>
+                <option value="">EN</option>
+                <option value="">JP</option>
+                <option value="">CH</option>
+            </select> -->
+          </li></ul>
+        </nav>
+  
+        <nav class="gnb">
+          <ul class="menu">
+            <li><a href="#" title="인기 여행지">인기 여행지</a></li>
+            <li><a href="pc_k_content.html" title="K-콘텐츠여행">K-콘텐츠 여행</a></li>
+            <li><a href="#" title="지역여행">지역여행</a>
+              <ul class="sub">
+                <li><a href="#" title="">서울</a></li>
+                <li><a href="#" title="">경기</a></li>
+                <li><a href="#" title="">강원</a></li>
+                <li><a href="#" title="">충청</a></li>
+                <li><a href="#" title="">경상</a></li>
+                <li><a href="#" title="">전라</a></li>
+                <li><a href="#" title="">제주</a></li>
+              </ul>
+            </li>
+            <li><a href="#" title="예약">예약</a>
+              <ul class="sub">
+                <li><a href="#" title="">렌터카/교통</a></li>
+                <li><a href="#" title="">숙소</a></li>
+                <li><a href="#" title="">티켓</a></li>
+              </ul>
+            </li>
+            <li><a href="#" title="여행지리뷰">여행지리뷰</a></li>
+            <li><a href="#" title="내 여행">내 여행</a></li>
+          </ul>
+        </nav>
+  
+        </div>
+    </header>
+  
+  <!-- 메인영역 시작 -->
+  <main>
+    <h2>로그인</h2>
+    <form name="로그인폼" method="post" action="login.php">
+      <fieldset>
+        <legend>로그인</legend>
+        <p><input type="text" placeholder="   아이디" class="b_id"></p>
+        <p><input type="password" placeholder="   패스워드" class="b_pw"></p>
+        <p><input type="submit" value="로그인" ></p>
+        <ul class="auto_login">
+          <!-- <li class="left_autolog">  -->
+            <li><img class="alog_icon" src="./img/login_img/auto_logon.png" alt="자동로그인_아이콘"></li>
+            <li><a href="#" title="자동로그인" class="left_autolog">자동로그인</a></li>
+          <!-- <li class="right_autolog">  -->
+          <li>
+            <a href="#" title=" 아이디/비번찾기" class="right_autolog">아이디 &#x007C; 비번밀번호 찾기</a>
+          </li>
+        </ul>
+      </fieldset>
+    </form>
+      <p class="easy_login">
+        &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;
+        <span class="easy_login_txt">간편 로그인</span> 
+        &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;</p>
+      <div class="logo_icon">
+        <a href="https://www.naver.com/"><img class="img_naver" src="./img/login_img/naver_icon.png" alt="네이버이미지"></a>
+        <a href="https://www.google.com/"><img class="img_goole" src="./img/login_img/google_icon.png" alt="구글이미지"></a>
+        <a href="https://www.instagram.com/"><img class="img_insta" src="./img/login_img/insta_icon.png" alt="인스타이미지"></a>
+        <a href="https://www.facebook.com/"><img class="img_facebook" src="./img/login_img/facebook_icon.png" alt="페이스북 이미지"></a>
+      </div>
+
+      <p class="txt_join">계정이 없으신가요? <a href="cert.html" title="회원가입" class="join">회원가입</a></p>
+  </main>
+
+<!-- 푸터영역 시작 -->
+  <footer>
+    <div class="f_box">
+      <nav class="f_lnb">
+        <ul class="f_lik">
+          <li><a href="#" title="이용약관">이용약관</a></li>
+          <li><a href="#" title="개인정보처리방침">개인정보처리방침</a></li>
+          <li><a href="#" title="저작권정책">저작권정책</a></li>
+          <li><a href="#" title="고객서비스현황">고객서비스현황</a></li>
+          <li><a href="#" title="전자우편무단수집거부">전자우편무단수집거부</a></li>
+          <li><a href="#" title="Q&A">Q&A</a></li>
+        </ul>
+      </nav>
+
+      <address>
+        <p>서울특별시 종로구 00  TEL : 02-123-1234 사업자등록번호 : 123-12-12345 통신판매업신고 : 제1111-서울중구-1111호<br>
+        COPYRIGHT ⓒ VIA COMPONY. ALL RIGHTS RESERVED.</p>
+      </address>
+    </div>
+
+    <span><a href="#top" title="위로 바로가기" class="icon_top"><img src="./img/header_footer_img/icon_top.png" alt="바로가기" ></a></span>
+  </footer>
+
+</body>
+</html>

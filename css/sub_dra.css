@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/* main{} */ 
+/* TITLE */
+.blank{
+  height: 50px;
+}
+.drama{
+  width: 1200px;
+  margin: 80px auto;
+}
+.drama .film{
+  width: 54px; height: 50px;
+  vertical-align: middle;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.drama > h2{
+  font-size: 32px;
+  font-weight: 700;
+}
+.drama h2 > span{
+  position: relative;
+}
+.drama > p{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 90px;
+}
+
+.drama > img{
+  width: 1200px; height: 500px;
+  border-radius: 15px;
+}
+
+/* 도깨비 여행지 둘러보기 */
+.drama_wrap{
+  margin: 120px auto;
+}
+.drama_wrap > h3{
+  font-size: 28px;
+  text-indent: 20px;
+  color: #222;
+}
+.bottom_line{
+  /* border-bottom: 1px solid #ff0;
+  box-shadow: inset 0 -2px 0 #ff0; */
+  font-size: 28px;
+  background: linear-gradient(to top, rgba(151,176,143,0.7) 40%, transparent 50%);
+}
+.drama_wrap > li{
+  width: 1080px;
+  position: relative;
+  padding: 0px 10px 0px 60px;
+  margin: 80px auto;
+  border-left: 2px solid #ddd;
+}
+.drama_wrap > li:first-child{
+  border: hidden;
+}
+.drama_wrap a{display: flex;}
+.drama_wrap img{
+  width: 225px; height: 162px;
+  border-radius: 7px;
+  margin-right: 65px;
+}
+.drama_wrap div{
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 40px;
+} 
+.drama_wrap .hash{
+  background-color: #efefef;
+  color: #888;
+  padding: 4px 4px 1px 4px;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+.drama_wrap .a_title{
+  font-size: 23px;
+  font-weight: 500;
+  margin: 55px 0px 30px 0px;
+} 
+.drama_wrap  > li > a .a_txt{
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+  line-height: 25px; padding-top: 10px;
+}
+.drama_wrap > li .location{
+  /* background-color: #efefef;
+  padding:0px 10px;
+  border-radius: 30px; */
+  color: #555;
+  font-size: 14px; font-weight: 500;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 찜하기 버튼 */
+.heart{
+  display:inline-block;
+  width:28px;height:26px;
+  background-image:url('../img/sub_img/heart_empty.png');
+  background-size: 28px 26px;
+  text-indent:-9999px;
+  position: absolute;
+  right: 60px; top: 8px;
+}
+#toggle1{display:none;}
+#toggle1:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+#toggle2{display:none;}
+#toggle2:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+#toggle3{display:none;}
+#toggle3:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+#toggle4{display:none;}
+#toggle4:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+#toggle5{display:none;}
+#toggle5:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+#toggle6{display:none;}
+#toggle6:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+#toggle7{display:none;}
+#toggle7:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+#toggle8{display:none;}
+#toggle8:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+#toggle9{display:none;}
+#toggle9:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+#toggle10{display:none;}
+#toggle10:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+#toggle11{display:none;}
+#toggle11:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+#toggle12{display:none;}
+#toggle12:checked+label{
+  background-image:url('../img/sub_img/heart_red.png');
+}
+
+
+/* 더보기 버튼 */
+.btn_review{
+  width: 225px; height: 50px;
+  display: block; margin: 100px auto;
+  margin-bottom: 80px;
+  line-height: 57px;
+  background: #97AF8F;
+  border: 1px solid #97AF8F;  border-radius: 7px;
+  text-align: center;
+}
+
+.btn_review > a{color: #fff; font-size: 20px; display: block;}

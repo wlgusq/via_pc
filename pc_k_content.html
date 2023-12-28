@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIA_서브_K-콘텐츠(PC)</title>
+    <!-- 1. 여백초기화 -->
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <!-- 2. 공통서식 (메인, 서브, 로그인, 회원가입)-->
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <!-- 3. 레이아웃--> 
+    <link href="./css/layout_sub.css" rel="stylesheet" type="text/css">
+    <!-- 4. 서브 페이지 서식 --> 
+    <link href="./css/sub.css" rel="stylesheet" type="text/css">
+
+  </script>
+  <!--top버튼 맨 위에서는 보이지 않게하기 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  
+      $(window).scroll(function(){
+        let sPos = $(this).scrollTop();
+  
+        if(sPos >=300){
+          $('.icon_top').fadeIn();
+        }else{
+          $('.icon_top').fadeOut();
+        }
+  
+      });
+  
+      $('.icon_top').click(function(){
+        $('html, body').animate({scrollTop:'0px'},300);
+        return false;
+      });
+  
+    });
+  </script>
+</head>
+
+<body>
+  <!-- header 영역 -->
+  <header>
+    <div class="h_top">
+      <h1><a href="pc_index.html" title="메인 페이지 바로가기"><img src="./img/header_footer_img/via_logo(1).png" alt="via 로고"></a></h1>
+  
+      <nav class="h_lnb">
+        <ul>
+          <li>
+            <fieldset class="search_wrap">
+              <legend>검색</legend>
+              <!-- <input type="text" placeholder="드라마, 축제, 지역 검색"  class="search"> -->
+              <input type="image" src="./img/header_footer_img/icon_search.png" alt="검색 아이콘" class="icon_search" >
+            </fieldset>
+          </li>
+
+          <li>
+            <a href="login.html" title="마이페이지 바로가기">
+              <img src="./img/header_footer_img/icon_user2.png" alt="내 프로필" class="icon_user">
+              <!-- 김나나 <span class="h_user_txt">님</span> -->
+            </a>
+          </li>
+
+          <li class="lang">
+            <img src="./img/header_footer_img/icon_lan3.png" alt="언어설정" class="icon_lan">
+            <!-- <select name="" id="lan">
+              <option value="">KR</option>
+              <option value="">EN</option>
+              <option value="">JP</option>
+              <option value="">CH</option>
+          </select> -->
+        </li></ul>
+      </nav>
+
+      <nav class="gnb">
+        <ul>
+          <li><a href="#" title="인기 여행지">인기 여행지</a></li>
+          <li><a href="pc_k_content.html" title="K-콘텐츠여행">K-콘텐츠 여행</a></li>
+          <li><a href="#" title="지역여행">지역여행</a>
+            <ul class="sub">
+              <li><a href="#" title="">서울</a></li>
+              <li><a href="#" title="">경기</a></li>
+              <li><a href="#" title="">강원</a></li>
+              <li><a href="#" title="">충청</a></li>
+              <li><a href="#" title="">경상</a></li>
+              <li><a href="#" title="">전라</a></li>
+              <li><a href="#" title="">제주</a></li>
+            </ul>
+          </li>
+          <li><a href="#" title="예약">예약</a>
+            <ul class="sub">
+              <li><a href="#" title="">렌터카/교통</a></li>
+              <li><a href="#" title="">숙소</a></li>
+              <li><a href="#" title="">티켓</a></li>
+            </ul>
+          </li>
+          <li><a href="#" title="여행지리뷰">여행지리뷰</a></li>
+          <li><a href="#" title="내 여행">내 여행</a></li>
+        </ul>
+      </nav>
+
+      </div>
+  </header>
+
+
+
+
+
+
+
+  <!-- main 영역 -->
+  <main>
+    <!-- TITLE -->
+    <article class="k_content">
+    <div class="blank"></div>
+    <h2><img class="camera" src="./img/sub_img/i_camera.png" alt="카메라 아이콘">
+      <span>K-콘텐츠 여행</span></h2>
+    
+
+    <p>K-콘텐츠에 나왔던 유명 촬영지를 그대로 여행해보세요!</p>
+
+    <!-- menu&search -->
+    <ul class="menu">
+      <li><input class="b_nav" type="button" value="전체"></li>
+      <li><input class="b_nav" type="button" value="드라마"></li>
+      <li><input class="b_nav" type="button" value="영화"></li>
+      <li><input class="b_nav" type="button" value="뮤직비디오"></li>
+
+      <li>    
+        <fieldset class="search_wrap2">
+          <legend>검색</legend>
+          <input type="text" placeholder="&#x007C; 검색"  class="s_nav">
+          <input type="image" src="./img/header_footer_img/icon_search.png" alt="검색 아이콘" class="icon_search2">
+        </fieldset>
+      </li>
+    </ul>
+
+
+    <!-- 콘텐츠 (9개) -->
+      <ul class="total"> 
+        <li>
+          <a href="./pc_drama.html" title="그 해 우리는">
+            <img src="./img/sub_img/와이어프레임/drama01.png" alt="그 해 우리는 미리보기">
+            <div class="caption">
+              <p>우리가 헤어진 건 다 내 오만이었어<br>너 없이 살 수 있을 거라는 내 오만</p>
+              <p class="a_title">그 해 우리는</p>
+              <span class="location">수원 행궁동</span>
+              <input type="checkbox" id="toggle4">
+              <label for="toggle4" class="heart">찜하기</label>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="./pc_drama.html" title="스물다섯 스물하나">
+          <img src="./img/sub_img/와이어프레임/drama06.png" alt="스물다섯 스물하나 미리보기">
+          <div class="caption">
+            <p>네가 어디에 있든, <br>네가 있는 곳에 내 응원이 닿게 할게
+              <br>내가 가서 닿을게, 그때 보자</p>
+              <p class="a_title">스물다섯 스물하나</p>
+              <span class="location">수원 행리단길</span>
+              <input type="checkbox" id="toggle11">
+              <label for="toggle11" class="heart">찜하기</label>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="./pc_drama.html" title="리틀포레스트">
+            <img src="./img/sub_img/와이어프레임/drama02.png" alt="리틀포레스트 미리보기">
+            <div class="caption">
+              <p>온기가 있는 생명은<br>다 의지가 되는 법이야</p>
+              <p class="a_title">리틀포레스트</p>
+              <span class="location">경상북도 군위</span>
+              <input type="checkbox" id="toggle7">
+              <label for="toggle7" class="heart">찜하기</label>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="./pc_drama.html" title="건축학개론">
+            <img src="./img/sub_img/와이어프레임/drama03.png" alt="건축학개론 미리보기">
+            <div class="caption">
+              <p>첫사랑이 잘 안되니까 첫사랑이지,<br>잘되면 그게 첫사랑이냐?</p>
+              <p class="a_title">건축학개론</p>
+              <span class="location">제주 서연의 집</span>
+              <input type="checkbox" id="toggle3">
+              <label for="toggle3" class="heart">찜하기</label>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="./pc_drama.html" title="도깨비">
+            <img src="./img/sub_img/와이어프레임/drama04.png" alt="도깨비 미리보기">
+            <div class="caption">
+              <p>날이 좋아서, 날이 좋지. 않아서,<br> 날이 적당해서 모든 날이 좋았다</p>
+              <p class="a_title">도깨비</p>
+              <span class="location">강릉 주문진</span>
+              <input type="checkbox" id="toggle1">
+              <label for="toggle1" class="heart">찜하기</label>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="./pc_drama.html" title="봄날">
+            <img src="./img/sub_img/와이어프레임/drama05.png" alt="봄날 미리보기">
+            <div class="caption">
+              <p>방탄소년단</p>
+              <p class="a_title">봄날</p>
+              <span class="location">양주 일영역</span>
+              <input type="checkbox" id="toggle5">
+              <label for="toggle5" class="heart">찜하기</label>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="./pc_drama.html" title="더글로리">
+            <img src="./img/sub_img/와이어프레임/drama07.png" alt="더글로리 미리보기">
+            <div class="caption">
+              <p>오늘부터 내꿈은 너야<br> 우리 꼭, 또 보자 박연진</p>
+              <p class="a_title">더글로리</p>
+              <span class="location">청라호수공원</span>
+              <input type="checkbox" id="toggle2">
+              <label for="toggle2" class="heart">찜하기</label>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="./pc_drama.html" title="남자가 사랑할 때">
+          <img src="./img/sub_img/와이어프레임/drama08.png" alt="남자가 사랑할 때 미리보기">
+          <div class="caption">
+            <p>눈 앞에 아른거리고 자꾸 생각나면<br>그게 사랑 아니냐?</p>
+            <p class="a_title">남자가 사랑할 때</p>
+            <span class="location">경암동 철길마을</span>
+            <input type="checkbox" id="toggle8">
+            <label for="toggle8" class="heart">찜하기</label>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="./pc_drama.html" title="호텔델루나">
+          <img src="./img/sub_img/와이어프레임/drama09.png" alt="호텔델루나 미리보기">
+          <div class="caption">
+            <p>난 좀 슬퍼졌어, 아까 보던 바다보다<br>지금 보는 바다가 예뻐져서</p>
+            <p class="a_title">호텔델루나</p>
+            <span class="location">부여 성흥산성</span>
+            <input type="checkbox" id="toggle9">
+            <label for="toggle9" class="heart">찜하기</label>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="./pc_drama.html" title="디토/오엠지">
+            <img src="./img/sub_img/와이어프레임/drama11.png" alt="ditto/OMG 미리보기">          
+            <div class="caption">
+              <p>뉴진스</p>
+              <p class="a_title">ditto, OMG</p>
+              <span class="location">계성중학교</span>
+              <input type="checkbox" id="toggle6">
+              <label for="toggle6" class="heart">찜하기</label>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="./pc_drama.html" title="사랑의 불시착">
+          <img src="./img/sub_img/와이어프레임/drama12.png" alt="사랑의 불시착 미리보기">
+          <div class="caption">
+            <p>난 좀 슬퍼졌어, 아까 보던 바다보다<br>지금 보는 바다가 예뻐져서</p>
+            <p class="a_title">사랑의 불시착</p>
+            <span class="location">제주 치유의 숲</span>
+            <input type="checkbox" id="toggle12">
+            <label for="toggle12" class="heart">찜하기</label>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="./pc_drama.html" title="연인">
+          <img src="./img/sub_img/와이어프레임/drama10.png" alt="연인 미리보기">
+          <div class="caption">
+            <p>이렇게 마주하니 꼭 신랑각시가 된 기분이야<br>이제 천년만년 이리 살면 되겠어</p>
+            <p class="a_title">연인</p>
+            <span class="location">강원 고석정</span>
+            <input type="checkbox" id="toggle10">
+            <label for="toggle10" class="heart">찜하기</label>
+          </div>
+          </a>
+        </li>
+      </ul>
+
+      <!-- page 번호 -->
+      <ul class="page">
+      <li><a class = "p_btn" href="#" title="전 페이지로 이동">
+        <img src="./img/sub_img/left_btn.png" alt="왼쪽 버튼">
+      </a></li>
+      <!-- 페이지 변환 시 class명 변경해주기 -->
+      <li><a class="p_number1" href="#" title="1">1</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li> 
+      <li><a class="p_number" href="#" title="2">2</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li> 
+      <li><a class="p_number" href="#" title="3">3</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li> 
+      <li><a class="p_number" href="#" title="4">4</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li> 
+      <li><a class="p_number" href="#" title="5">5</a></li>
+      <li><a class = "p_btn" href="#" title="다음 페이지로 이동">
+        <img src="./img/sub_img/right_btn.png" alt="오른쪽 버튼">
+      </a></li>
+      </ul>
+      
+      <!-- banner -->
+      <ul class="banner">
+        <li>
+          <p class>지역별 여행지가 궁금하다면 ?</p>
+            <a href="location.html" title="지역여행 바로가기">지역여행 페이지 바로가기</a>
+        </li>
+      </ul>
+      
+      
+      </article>
+  </main>
+
+
+
+
+
+
+
+  <!-- footer 영역 -->
+  <footer>
+    <div class="f_box">
+      <nav class="f_lnb">
+        <ul>
+          <li><a href="#" title="이용약관">이용약관</a></li>
+          <li><a href="#" title="개인정보처리방침">개인정보처리방침</a></li>
+          <li><a href="#" title="저작권정책">저작권정책</a></li>
+          <li><a href="#" title="고객서비스현황">고객서비스현황</a></li>
+          <li><a href="#" title="전자우편무단수집거부">전자우편무단수집거부</a></li>
+          <li><a href="#" title="Q&A">Q&A</a></li>
+        </ul>
+      </nav>
+
+      <address>
+        <p>서울특별시 종로구 00  TEL : 02-123-1234 사업자등록번호 : 123-12-12345 통신판매업신고 : 제1111-서울중구-1111호<br>
+          COPYRIGHT ⓒ VIA COMPONY. ALL RIGHTS RESERVED.</p>
+      </address>
+    </div>
+
+    <span><a href="#top" title="위로 바로가기" class="icon_top">
+      <img src="./img/header_footer_img/icon_top.png" alt="top 아이콘"></a></span>
+
+  </footer>
+
+  
+</body>
+</html>

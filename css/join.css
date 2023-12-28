@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/* index페이지의 메인레이아웃 */
+main{
+  text-align:center;
+  padding-top: 200px;
+}
+
+h2{
+  color: #333333;
+  font-size:34px;
+  font-weight: 600; 
+  padding-bottom: 66px;
+}
+.date select{
+  padding-left: 15px;
+  border:1px solid #BBBBBB;
+  border-radius: 5px;
+  width:117.5px;
+  height:50px;
+  margin: 7.5px;
+  color: #333333;
+  background: #F6F6F6;
+  font-size:17px;
+  font-weight: lighter;
+}
+.b_gender{
+  
+  display: flex;
+  border:1px solid #BBBBBB;
+  border-radius: 5px;
+  width:390px;
+  height:50px;
+  margin: 7.5px auto;
+  color: #333333;
+  background: #F6F6F6;
+  font-size:17px;
+  font-weight: lighter;
+}
+.b_gender p{
+  margin: 18px;
+}
+.b_gender .b_b_gender{
+  margin-left: 50px;
+}
+.b_gender input{
+  margin: 18px 10px;
+}
+.b_name, .b_id_j, .b_pw_j, .b_pw_chk{
+  padding-left: 15px;
+  border:1px solid #BBBBBB;
+  border-radius: 5px;
+  width:373px;
+  height:50px;
+  margin: 7.5px;
+  color: #333333;
+  background: #F6F6F6;
+  font-size:17px;
+  font-weight: lighter;
+  font-family:gmarket sans TTF;
+}
+
+fieldset > select{
+  border:1px solid #BBBBBB;
+  border-radius: 5px;
+  width:392px;
+  height:50px;
+  margin: 7.5px;
+  color: #333333;
+  background: #F6F6F6;
+  font-size:17px;
+  font-weight: lighter;
+  font-family:gmarket sans TTF;
+  padding-left: 10px;
+}
+.b_phnnum{
+  /* display: flex; */
+  /* text-align: center; */
+  /* margin: 0 auto; */
+}
+.t_phnnum{
+  padding-left: 15px;
+  border:1px solid #BBBBBB;
+  border-radius: 5px;
+  width:238.5px;
+  height:50px;
+  margin: 7.5px 5px 7.5px 0;
+  color: #333333;
+  background: #F6F6F6;
+  font-size:17px;
+  font-weight: lighter;
+}
+
+.cert{
+  padding-top: 17.5px;
+  border:1px solid #BBBBBB;
+  border-radius: 5px;
+  width:123px;
+  height:34.5px;
+  color: #333;
+  background: #F6F6F6;
+  font-size:17px;
+  font-weight: lighter;
+  display: inline-block;
+}
+.cert:hover{
+  background: #97af8f;
+  border:1px solid #BBBBBB;
+}
+
+fieldset> .t_cert{
+  padding-left: 15px;
+  border:1px solid #BBBBBB;
+  border-radius: 5px;
+  width:373px;
+  height:50px;
+  margin: 7.5px auto;
+  color: #333333;
+  background: #F6F6F6;
+  font-size:17px;
+  font-weight: lighter;
+}
+
+input[type=submit]{
+  border-radius: 5px;
+  margin: 7.5px;
+  width:391px;
+  height:50px;
+  background:#686969;
+  color:#fff;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family:gmarket sans TTF;
+}
+
+.txt_login{
+  font-size:13px;
+  font-family:gmarket sans TTF;
+  color: #686969;
+  padding-top: 15px;
+  padding-bottom: 91px;
+}
