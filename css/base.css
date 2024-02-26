@@ -1,29 +1,31 @@
 @charset "utf-8";
 
-@font-face {
+/* @font-face {
 	font-family: 'Gmarket Sans';    font-style: normal;    font-weight: 700;
 	src: local('Gmarket Sans Bold'), local('GmarketSans-Bold'),
-	url('http://script.gmarket.com/fonts/GmarketSansBold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-	url('http://script.gmarket.com/fonts/GmarketSansBold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	url('http://script.gmarket.com/fonts/GmarketSansBold.woff2') format('woff2'), 
+	url('http://script.gmarket.com/fonts/GmarketSansBold.woff') format('woff'); 
 }
 @font-face {
 	font-family: 'Gmarket Sans';    font-style: normal;    font-weight: 500;
 	src: local('Gmarket Sans Medium'), local('GmarketSans-Medium'),
-	url('http://script.gmarket.com/fonts/GmarketSansMedium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-	url('http://script.gmarket.com/fonts/GmarketSansMedium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	url('http://script.gmarket.com/fonts/GmarketSansMedium.woff2') format('woff2'), 
+	url('http://script.gmarket.com/fonts/GmarketSansMedium.woff') format('woff');
 }
 @font-face {
 	font-family: 'Gmarket Sans';    font-style: normal;    font-weight: 300;
 	src: local('Gmarket Sans Light'), local('GmarketSans-Light'),
-	url('http://script.gmarket.com/fonts/GmarketSansLight.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-	url('http://script.gmarket.com/fonts/GmarketSansLight.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+	url('http://script.gmarket.com/fonts/GmarketSansLight.woff2') format('woff2'), 
+	url('http://script.gmarket.com/fonts/GmarketSansLight.woff') format('woff'); 
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=IBM+Plex+Sans+KR&family=Orbit&display=swap');
 
 
 /* . 공통서식(메인, 서브, 로그인, 회원가입 */
 
 /* 전체 글자모양 */
-*{font-family: 'Gmarket Sans', sans-serif, arial;}
+*{font-family: "IBM Plex Sans KR", sans-serif, arial;}
 h1, h2, h3, h4, h5, h6{color: #222;}
 
 html, body, div, span, applet, object, iframe,
@@ -38,7 +40,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video{font-family: 'Gmarket Sans', sans-serif, arial;
+time, mark, audio, video{font-family: "IBM Plex Sans KR", sans-serif, arial;
 color: #333;}
 
 footer{
